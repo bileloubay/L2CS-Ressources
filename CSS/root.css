@@ -1,0 +1,69 @@
+:root {
+    --bg: rgb(0, 0, 0);
+
+    --titre: #b7042b;
+    --titre-bg: #a92441;
+
+    --stitre1: var(--rouge);
+    --stitre1-bg: var(--lrouge);
+    --stitre1-sep: var(--stitre1);
+
+
+    --stitre2: var(--teal);
+    --stitre2-bg: var(--lteal);
+    --stitre2-sep: var(--steal);
+
+
+    --stitre3: var(--mauve);
+    --stitre3-bg: var(--lmauve);
+    --stitre3-sep: var(--smauve);
+
+
+    --card: var(--rose);
+    --card-bg: var(--lrose);
+    --card-sep: var(--srose);
+
+
+    --formule: var(--orange);
+    --formule-bg: var(--lorange);
+    --formule-sep: var(--sorange);
+
+
+    /* Couleurs */
+    --defaut: var(--bleu);
+
+        /* Bleu et Light Bleu */
+    --bleu: rgb(40, 86, 191);
+    --lbleu: rgb(4, 4, 131);
+
+        /* Noir, Light Noir */
+    --noir: black;
+    --lnoir: rgb(167, 166, 166);
+
+        /* Rouge, Light Rouge, Soft Rouge */
+    --rouge : crimson;
+    --lrouge: rgb(241, 167, 167);
+    --srouge : #ec5170;
+
+        /* Mauve, Light Mauve, Soft Mauve */
+    --mauve: rgb(145, 22, 202);
+    --lmauve: rgb(216, 144, 249);
+    --smauve: rgb(192, 117, 227);
+
+        /* Teal, Light Teal, Soft Teal */
+    --teal: rgb(0, 110, 105);
+    --lteal: rgb(8, 207, 197);
+    --steal: #32aea8;
+
+        /* Rose, Light Rose, Soft Rose */
+    --rose: rgb(189, 7, 76);
+    --lrose: rgb(254, 107, 163);
+    --srose: var(--rose);
+
+        /* Orange, Light Orange, Soft Orange */
+    --orange: rgb(209, 67, 15);
+    --lorange: rgb(252, 153, 118);
+    --sorange: rgb(195, 106, 55);
+
+    --a-retenir: rgb(173, 60, 60);
+}

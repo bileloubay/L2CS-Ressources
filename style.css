@@ -1,0 +1,65 @@
+@import url('CSS/root.css');
+
+@import url('CSS/cards.css');
+@import url('CSS/formule.css');
+@import url('CSS/scrollbar.css');
+@import url('CSS/separateurs.css');
+@import url('CSS/stylo.css');
+@import url('CSS/tables.css');
+@import url('CSS/titres.css');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    position: relative;
+    padding: 10px 20px 7px;
+
+    font-family: consolas;
+    font-size: 16px;
+    color: var(--defaut);
+    background-color: var(--bg);
+
+}
+
+.center-element{
+    margin-inline: auto;
+}
+
+.center-elements{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-text{
+    text-align: center;
+}
+
+pad{
+    position: relative;
+    display: block;
+    padding-left: 5px;
+    padding-block: 10px;
+}
+
+
+
+
+remarque{
+    display: block;
+    color: orangered;
+    font-weight: bold;
+}
+
+a-retenir{
+    display: block;
+    color: rgb(173, 60, 60);
+    font-weight: bold;
+}
