@@ -7,6 +7,7 @@
 @import url('CSS/stylo.css');
 @import url('CSS/tables.css');
 @import url('CSS/titres.css');
+@import url('CSS/Subject.css');
 
 
 *{
@@ -62,4 +63,13 @@ a-retenir{
     display: block;
     color: rgb(173, 60, 60);
     font-weight: bold;
+}
+
+main-text{
+    display: block;
+    text-align: center;
+}
+
+main-content{
+    display: block;
 }
